@@ -30,11 +30,15 @@
         <input type="number" id="travelCost" name="travelCost" required></div>
 
         <button type="button" onclick="calculateExpense()">Calculate Expense</button>
+        <button type="button" onclick="goToWeather()">7 days weather prediction </button>
     </form>
 
     <div id="result"></div>
 
     <script>
+        function goToWeather(){
+            window.location.href = "weather.html";
+        }
         function calculateExpense() {
             var placeOfInterest = document.getElementById('placeOfInterest').value;
             var rajasthan = 0;
