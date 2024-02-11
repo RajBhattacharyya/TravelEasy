@@ -65,10 +65,15 @@ Welcome to our Travel-Ease! This web application provides users with estimated p
 
 Contrubitors for the website include:
 ->Raj Bhattacharyya (U-ID: RajBhattacharyya)
+
 ->Anoushka Bhadra (U-ID: AstraeaMavi)
+
 ->Ankush Dutta (U-ID: AnkushD-11)
+
 ->Srijani Mukhopadhyay (U-ID: Srijani-03)
+
 ->Md. Asif (U-ID: Asif556)
+
 ->Ankur Saha (U-ID: AnkurS7059)
 
 ## License
