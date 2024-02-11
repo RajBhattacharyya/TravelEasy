@@ -64,6 +64,7 @@ Welcome to our Travel-Ease! This web application provides users with estimated p
 ## Contributors
 
 Contrubitors for the website include:
+
 ->Raj Bhattacharyya (U-ID: RajBhattacharyya)
 
 ->Anoushka Bhadra (U-ID: AstraeaMavi)
