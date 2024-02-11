@@ -65,17 +65,17 @@ Welcome to our Travel-Ease! This web application provides users with estimated p
 
 Contrubitors for the website include:
 
-->Raj Bhattacharyya (U-ID: RajBhattacharyya)
+->Raj Bhattacharyya (U-ID:  [RajBhattacharyya](https://github.com/RajBhattacharyya))
 
-->Anoushka Bhadra (U-ID: AstraeaMavi)
+->Anoushka Bhadra (U-ID: [AstraeaMavi](https://github.com/AstraeaMavi))
 
-->Ankush Dutta (U-ID: AnkushD-11)
+->Ankush Dutta (U-ID: [AnkushD-11](https://github.com/AnkushD-11))
 
-->Srijani Mukhopadhyay (U-ID: Srijani-03)
+->Srijani Mukhopadhyay (U-ID: [Srijani-03](https://github.com/Srijani-03))
 
-->Md. Asif (U-ID: Asif556)
+->Md. Asif (U-ID: [Asif556](https://github.com/Asif556))
 
-->Ankur Saha (U-ID: AnkurS7059)
+->Ankur Saha (U-ID: [Ankur-S7059](https://github.com/Ankur-S7059))
 
 ## License
 
