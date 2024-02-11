@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Calculator</title>
+    <link rel="stylesheet" href="predict.css">
+</head>
+<body>
+
+    <form id="expenseForm">
+        <div  class="flex"><label for="placeOfInterest">Place of Interest:</label>
+        <select id="placeOfInterest" name="placeOfInterest" required>
+            <option value="0">Kerala</option>
+            <option value="1">Sikkim</option>
+            <option value="2">Rajasthan</option>
+        </select>
+    </div>
+
+        <div class="flex"><label for="hotelPrice">Hotel Price:</label>
+        <input type="number" id="hotelPrice" name="hotelPrice" required></div>
+
+       <div class="flex"> <label for="selfAllowance">Self Allowance:</label>
+        <input type="number" id="selfAllowance" name="selfAllowance" required></div>
+
+        <div class="flex"><label for="foodPrice">Food Price:</label>
+        <input type="number" id="foodPrice" name="foodPrice" required></div>
+
+        <div class="flex"><label for="travelCost">Travel Cost:</label>
+        <input type="number" id="travelCost" name="travelCost" required></div>
+
+        <button type="button" onclick="calculateExpense()">Calculate Expense</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        function calculateExpense() {
+            var placeOfInterest = document.getElementById('placeOfInterest').value;
+            var rajasthan = 0;
+            var sikkim = 0;
+    
+            if (placeOfInterest == 0) {
+                rajasthan = 0;
+                sikkim = 0;
+            } else if (placeOfInterest == 1) {
+                rajasthan = 0;
+                sikkim = 1;
+            } else {
+                rajasthan = 1;
+                sikkim = 0;
+            }
+    
+            var hotelPrice = document.getElementById('hotelPrice').value;
+            var selfAllowance = document.getElementById('selfAllowance').value;
+            var foodPrice = document.getElementById('foodPrice').value;
+            var travelCost = document.getElementById('travelCost').value;
+    
+            // You would replace the URL with your actual API endpoint
+            var apiUrl = `https://hackfest-xw5p.onrender.com/predict/${hotelPrice}/${selfAllowance}/${foodPrice}/${travelCost}/${rajasthan}/${sikkim}`;
+    
+            // You may use fetch to make a request to your API
+            fetch(apiUrl, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerHTML = 'Total Expense: ' + data;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('result').innerHTML = 'Please provide the required details.';
+            });
+        }
+    </script>
+    
+
+</body>
+</html>

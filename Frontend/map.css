@@ -1,0 +1,39 @@
+body{
+    background: radial-gradient(circle,#192655, #A0E9FF, #64CCC5, #0766AD); 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    filter: drop-shadow(2px 2px 4px rgba(21, 19, 19, 0.882)) ;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+svg path {
+    width: 100%;
+    height: auto;
+    stroke: #706233;
+    stroke-width: 0.25;
+    fill: #E1C78F;
+    transition: fill 0.3s ease; 
+}
+
+svg path:hover {
+    fill: #65451F;
+    transition: 0.6s;
+    cursor: pointer;  
+}
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x:scroll;
+        overflow-y: scroll;
+    }
+    
+    #container {
+        padding: 20px; /* Add padding to the container for better spacing on smaller screens */
+    }
+}
+
