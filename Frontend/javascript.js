@@ -1,8 +1,8 @@
 function goToSVGMap() {
-    window.location.href = "svgmap.html";
+    window.location.href = "Frontend/svgmap.html";
 }
 function goToPlaces(){
-    window.location.href = "krl.html";
+    window.location.href = "Frontend/krl.html";
 }
 const options = {
     accessibility: true,
