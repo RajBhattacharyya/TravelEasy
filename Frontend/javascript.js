@@ -2,7 +2,7 @@ function goToSVGMap() {
     window.location.href = "Frontend/svgmap.html";
 }
 function goToPlaces(){
-    window.location.href = "Frontend/krl.html";
+    window.location.href = "krl.html";
 }
 const options = {
     accessibility: true,
