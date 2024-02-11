@@ -4,6 +4,12 @@ function goToSVGMap() {
 function goToPlaces(){
     window.location.href = "krl.html";
 }
+function goToRajasthan(){
+    window.location.href="rajsthn_1.html";
+}
+function goToSikkim(){
+    window.location.href ="skm.html";
+}
 const options = {
     accessibility: true,
     prevNextButtons: true,
