@@ -33,7 +33,7 @@ Welcome to our Travel-Easy! This web application provides users with estimated p
 
 1. Clone the repository:
    bash
-   git clone https://github.com/RajBhattacharyya/TravelEasy.git
+   git clone https://github.com/RajBhattacharyya/Travel_Easy.git
    cd smart-tourism-website
    
 
