@@ -1,6 +1,6 @@
-# Travel-Ease
+# Travel-Easy
 
-Welcome to our Travel-Ease! This web application provides users with estimated prices for tourism and information about the weather at different places.
+Welcome to our Travel-Easy! This web application provides users with estimated prices for tourism and information about the weather at different places.
 
 ## Table of Contents
 - [Features](#features)
