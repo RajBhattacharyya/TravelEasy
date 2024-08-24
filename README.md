@@ -67,7 +67,7 @@ Contrubitors for the website include:
 
 ->Raj Bhattacharyya (U-ID:  [RajBhattacharyya](https://github.com/RajBhattacharyya))
 
-->Anoushka Bhadra (U-ID: [AstraeaMavi](https://github.com/AstraeaMavi))
+->Anoushka Bhadra (U-ID: [Anoushka Bhadra](https://github.com/AnoushkaBhadra)
 
 ->Ankush Dutta (U-ID: [AnkushD-11](https://github.com/AnkushD-11))
 
